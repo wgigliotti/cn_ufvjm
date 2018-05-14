@@ -1,0 +1,4 @@
+OC = Ordem de compra, ID da 'licitação'
+UC = Unidade Compradora, Orgão do governo que realizou a compra
+VALOR = Valor total da compra
+SECRETARIA = ID da secretaria que fez a compra
