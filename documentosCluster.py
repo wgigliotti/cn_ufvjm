@@ -11,7 +11,7 @@ import math
 
 class DocCluster(Mapper):
 	
-	def __init__(self, infile=sys.stdin, separator="\t", clusterFile="resultados/05-clusters.txt"):
+	def __init__(self, infile=sys.stdin, separator="\t", clusterFile="resultados/clusters.csv"):
 		super(DocCluster, self).__init__(infile, separator)
 		self.readClusters(clusterFile)
 

@@ -14,7 +14,7 @@ import math
 
 class Mastiga(Mapper):
 	
-	def __init__(self, infile=sys.stdin, separator="\t", dfFile="resultados/03-document-frequency.csv", numeroDocFile = "resultados/numeroDocumentos.csv"):
+	def __init__(self, infile=sys.stdin, separator="\t", dfFile="resultados/document_frequency.csv", numeroDocFile = "resultados/numeroDocumentos.csv"):
 		super(Mastiga, self).__init__(infile, separator)
 		
 		self.df = self.readFile(dfFile)
